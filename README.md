@@ -6,3 +6,4 @@
 # Then plot my data on "scatter.plot" and set parameters "Sepal length" and "Sepal width" from my "df0" and "df1"
 # And exactly I do this same with "petal length" and "petal width"
 # I import my "train_test_split" and set my "X" as my df, without column "target" and "flower_name" """X = df.drop(['target', 'flower_name'], axis='columns')"""
+# And "y" is my "targert" column """y = df.target""", then i get my "train" and "test" set
