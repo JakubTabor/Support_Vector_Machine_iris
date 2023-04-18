@@ -5,4 +5,4 @@
 # I save (3) df to each of my "flower_name" "df0 = df[df.target==0]" "df1 = df[df.target==1]" "df2 = df[df.target==2]"
 # Then plot my data on "scatter.plot" and set parameters "Sepal length" and "Sepal width" from my "df0" and "df1"
 # And exactly I do this same with "petal length" and "petal width"
-# I import my "train_test_split" and set my "X" as my df without column "target" and "flower_name" """X = df.drop(['target', 'flower_name'], axis='columns')"""
+# I import my "train_test_split" and set my "X" as my df, without column "target" and "flower_name" """X = df.drop(['target', 'flower_name'], axis='columns')"""
