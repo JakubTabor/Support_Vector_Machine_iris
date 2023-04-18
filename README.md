@@ -7,3 +7,4 @@
 # And exactly I do this same with "petal length" and "petal width"
 # I import my "train_test_split" and set my "X" as my df, without column "target" and "flower_name" """X = df.drop(['target', 'flower_name'], axis='columns')"""
 # And "y" is my "targert" column """y = df.target""", then i get my "train" and "test" set
+# Next i get "SVC" model and train my data """model.fit(X_train, y_train)"""
